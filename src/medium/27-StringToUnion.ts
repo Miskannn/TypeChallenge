@@ -8,3 +8,7 @@ type StringToUnion<T extends string, U extends unknown[] = []> =  T extends `${i
 type cases = [
     Expect<Equal<StringToUnion<"abc">, "a" | "b" | "c">>
 ];
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00531-medium-string-to-union/README.md
+ */

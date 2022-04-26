@@ -24,5 +24,8 @@ type Construct<T extends string>=[
 type cases = [
     Expect<Equal<Construct<"+85%">, ["+", "85", "%"]>>,
     Expect<Equal<Construct<"-85">, ["-", "85", ""]>>
-
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/01978-medium-percentage-parser/README.md
+ */

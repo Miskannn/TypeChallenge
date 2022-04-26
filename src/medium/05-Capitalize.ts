@@ -13,3 +13,7 @@ type cases = [
     Expect<Equal<Capitalizer<"hello world">, "Hello world">>,
     Expect<Equal<Capitalizer<"i like">, "I like">>
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00110-medium-capitalize/README.md
+ */

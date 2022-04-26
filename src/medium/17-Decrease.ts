@@ -10,3 +10,7 @@ type Decrease<T extends number, A extends any[] = []> = A['length'] extends T
 type cases = [
     Expect<Equal<Decrease<1>, 0>>,
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/02257-medium-minusone/README.md
+ */

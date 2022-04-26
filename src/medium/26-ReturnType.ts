@@ -13,3 +13,8 @@ const testFn = (v: boolean) => {
 type cases = [
     Expect<Equal<CustomReturnType<typeof testFn>, "1" | "2">>
 ]
+
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00002-medium-return-type/README.md
+ */

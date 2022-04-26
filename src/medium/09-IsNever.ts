@@ -8,3 +8,7 @@ type cases = [
     Expect<Equal<isNever<[]>, false>>,
     Expect<Equal<isNever<{}>, false>>
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/01042-medium-isnever/README.md
+ */

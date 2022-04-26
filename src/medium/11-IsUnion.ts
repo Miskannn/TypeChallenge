@@ -8,3 +8,7 @@ type cases = [
     Expect<Equal<IsUnion<string>, false>>,
     Expect<Equal<IsUnion<[string | number]>, false>>
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/01097-medium-isunion/README.md
+ */

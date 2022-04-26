@@ -19,3 +19,7 @@ type cases = [
     Expect<Equal<LookUp<Cat | Dog, "dog">, Dog>>,
     Expect<Equal<LookUp<Cat, "cat">, Cat>>
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00062-medium-type-lookup/README.md
+ */

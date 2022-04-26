@@ -17,3 +17,7 @@ type obj2 = {
 type cases = [
     Expect<Equal<Diff<obj1, obj2>, {name: string, flag: boolean}>>
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00645-medium-diff/README.md
+ */

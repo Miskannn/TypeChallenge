@@ -16,3 +16,7 @@ type cases = [
         someMethod(): void
     }>, {someMethod(): void}>>
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/01367-medium-remove-index-signature/README.md
+ */

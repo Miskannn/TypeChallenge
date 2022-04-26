@@ -8,3 +8,7 @@ type cases = [
     Expect<Equal<Ternar<false, "a", "b">, "b">>
 ]
 
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00268-easy-if/README.md
+ */
+

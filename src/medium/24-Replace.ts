@@ -11,3 +11,7 @@ type Replace<String extends string, From extends string, To extends string> =
 type cases = [
     Expect<Equal<Replace<"types are fun", "fun", "funny">, "types are funny">>
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00116-medium-replace/README.md
+ */

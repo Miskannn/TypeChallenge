@@ -21,3 +21,8 @@ type test2 = {
 type cases = [
     Expect<Equal<Merge<test1, test2>, {id: number, age: number,bool: true}>>
 ]
+
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00599-medium-merge/README.md
+ */

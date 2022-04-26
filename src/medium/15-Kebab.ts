@@ -11,3 +11,7 @@ type cases = [
     Expect<Equal<LyuliaKebab<"ChiLi">, "chi-li">>,
     Expect<Equal<LyuliaKebab<"">, "">>
 ]
+
+/**
+ * Link to challenge: https://github.com/type-challenges/type-challenges/blob/main/questions/00612-medium-kebabcase/README.md
+ */
