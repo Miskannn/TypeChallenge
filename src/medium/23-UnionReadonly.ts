@@ -23,8 +23,8 @@ const todo: UnionReadonly<Todo, "title" | "description"> = {
 
 type cases = [
     Expect<NotEqual<UnionReadonly<Todo, "title" | "description">, Readonly<Todo>>>,
-    Expect<NotEqual<UnionReadonly<Todo, "title" | "description">, Todo>>,
-    Expect<NotEqual<UnionReadonly<Todo>, Todo>>
+    Expect<Equal<UnionReadonly<Todo, "title" | "description">['title'], Readonly<Todo['title']> >>,
+    Expect<Equal<UnionReadonly<Todo, "title" | "description">['description'], Readonly<Todo['description']> >>,
 ]
 
 
