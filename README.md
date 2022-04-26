@@ -1,6 +1,8 @@
 # Type challenges from:
 https://github.com/type-challenges/type-challenges
 
+#Purpose: Improving typescript skills
+
 # Install dependencies
 npm i   
 
